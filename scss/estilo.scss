@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+* { 
+
+    margin: 0;
+    padding: 0;
+}
+
+
+@import "imagenes";
+@import "grid"; 
+
+h3 {
+
+background-color: beige;
+color: midnightblue;
+font-family: 'Roboto', sans-serif;
+font-size: 20px; 
+text-align:left;
+}
+
+
+h1 {
+color: ghostwhite;
+font-size: 35px;
+padding: 0 80px;
+font-weight: bold; 
+}
+
+
+nav { 
+ 
+border: 2px black solid
+
+}
+
+header {
+  
+  background-color: midnightblue;
+  grid-area: header;
+}
+
+
+menu {
+
+grid-area: menu;
+
+}
+
+
+
+#footer {
+
+color: midnightblue;
+
+grid-area: footer; 
+
+}
+
+.fondo {
+
+background-color: cadetblue;
+
+}
+
+.quienesSomos {
+color: navy;
+
+}
+
+section { font-family: 'Roboto', sans-serif;
+font-size: 20px;
+} 
+
+.formCv {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+
+}
+
+.claseUbicacion {
+background-color: midnightblue;
+font-family: 'Roboto', sans-serif;
+font-size: 20px;
+color: ghostwhite;
+
+}
+
+.claseContacto {
+
+background-color: beige;
+font-family: 'Roboto', sans-serif;
+font-size: 20px;
+color: midnightblue;
+
+}
+
+
+
+
+
+a {text-decoration: none;
+color:whitesmoke; 
+font-weight: bold;
+display: block;
+text-transform: uppercase;
+}
+
+nav li {list-style-type: none;
+    display: inline-block;
+    font-weight: bold;
+    
+}
+
+.menu ul {
+background-color: blue;
+color: antiquewhite;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px; 
+    font-size: 20px;
+  
+}
+
+.menu li {
+ /* border-right: 1px solid white;*/
+margin: 0 5px; 
+
+}
+
+.menu li :hover {
+background: rgba(0, 0, 0, 0.3);
+transform: scale(1.1);
+}
+
+@media screen and (max-width:768px){
+
+header label { display: block; }
+
+.menu ul { flex-direction: column; }
+
+.menu li {  border-top: 1px solid white;}
+
+
+}
+
+h2 {
+  background-image:linear-gradient(to right, midnightblue, cadetblue);
+background-color:blueviolet
+}
