@@ -1,0 +1,17 @@
+
+.formContacto {
+    margin-top: 2rem;
+    width: 400px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+    
+    }
+    
+    .formCv {
+        @extend .formContacto
+    }

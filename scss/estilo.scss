@@ -5,9 +5,13 @@
     padding: 0;
 }
 
-
+@import "variables";
+@import "footer";
 @import "imagenes";
 @import "grid"; 
+@import "maps";
+@import "extend";
+@import "mixin";
 
 h3 {
 
@@ -47,14 +51,6 @@ grid-area: menu;
 }
 
 
-
-#footer {
-
-color: midnightblue;
-
-grid-area: footer; 
-
-}
 
 .fondo {
 

@@ -1,0 +1,7 @@
+$estilo:(color:black, tamfuente:2rem);
+
+.quienesSomos {
+color:map-get($estilo, color);
+font-size: map-get($estilo, tamfuente);
+
+}

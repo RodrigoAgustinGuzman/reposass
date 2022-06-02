@@ -1,0 +1,12 @@
+@mixin estilo {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 2rem;
+color:rgb(13, 13, 236);
+background-color: rgba(0, 0, 0, 0.973);
+
+}
+
+.parrafoMixin {
+
+    @include estilo;
+}
